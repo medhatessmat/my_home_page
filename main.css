@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+    iframe.reverseDarkReaderFilter {
+        -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+        filter: invert(100%) hue-rotate(180deg) !important;
+    }
+
+    body {
+        background-color: #292a2d;
+        color: white;
+    }
+}
